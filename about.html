@@ -13,7 +13,7 @@
       <!--=============== CSS ===============-->
       <link rel="stylesheet" href="assets/css/styles.css">
 
-      <title>Contact - Prince</title>
+      <title>About - Prince</title>
    </head>
    <body>
       <!--==================== HEADER ====================-->
@@ -60,36 +60,76 @@
 
       <!--==================== MAIN ====================-->
       <main class="main">
-         <!--==================== CONTACT ====================-->
-         <section class="contact section">
+         <!--==================== ABOUT ====================-->
+         <section class="about section">
             <h2 class="section__title">
-               Let's Talk<br>
-               About You              
+               About <br> 
+               Me               
             </h2>
 
-            <div class="contact__page container grid">
-               <form action="" class="contact__form grid" id="contact-form">
-                  <div class="contact__group grid">
-                     <div class="contact__box">
-                        <input type="text" name="user_name" id="name" required placeholder="Type your first name" class="contact__input">
-                        <label for="name" class="contact__label">First Name</label>
+            <div class="about__container about__page container grid">
+               <div class="about__perfil perfil">
+                  <div class="perfil__content">
+                     <img src="assets/img/home-perfil.png" alt="image" class="perfil__img">
+                  </div>
+               </div>
+
+               <div class="about__content grid">
+                  <div class="about__data grid">
+                     <div class="about__info grid">
+                        <h1 class="about__name">Prince Otchere</h1>
+                        <h2 class="about__profession">Web Developer & Derivatives Trader</h2>
+                        <p class="about__description">
+                           Passionate about developing and testing web pages, I have <b>5+ years</b> 
+                           of experience <b>each in chemistry and technology</b>. And a growing 
+                           interest in derivatives. Specifically, <b>options and futures</b>.
+                        </p>
+                        <p class="about__description">
+                           For <b>1+ years</b>, I have been <b>selling options for premium 
+                              income</b> in varying market conditions.
+                        </p>
+                        <p class="about__description">
+                           Although it is among the most highly leveraged yet regulated 
+                           financial instrument, <b>I won't talk about 
+                           futures here</b>. Another time.  
+                        </p>
+                        <p class="about__description">
+                           One of my favorite stories to read is <b>The Little Prince</b>, 
+                           the inspiration for this site.
+                        </p>
+                        <p class="about__description">
+                           For any inquiries, <b>DM me</b> on any of 
+                           the links <b>at the footer</b> below. 
+                        </p>
+                        <p class="about__description">
+                           Alternatively, <b>send me an email</b> by filling in the <b>Contact form</b> with a message. 
+                        </p>
                      </div>
 
-                     <div class="contact__box">
-                        <input type="email" name="user_email" id="email" required placeholder="Type your email address" class="contact__input">
-                        <label for="email" class="contact__label">Email Address</label>
+                     <a href="contact.html" class="about__button button">Contact Me</a>
+                  </div>
+
+                  <div class="about__skills">
+                     <h3 class="about__skills-title">My Skills Are</h3>
+
+                     <div class="about__skills-content grid">
+                        <img src="assets/img/about-html.svg" alt="image" class="about__skills-img">
+                        <img src="assets/img/about-css.svg" alt="image" class="about__skills-img">
+                        <img src="assets/img/about-javascript.svg" alt="image" class="about__skills-img">
+                        <img src="assets/img/about-git.svg" alt="image" class="about__skills-img">
+                        <img src="assets/img/about-react.svg" alt="image" class="about__skills-img">
+                        <!-- Github icon needs to appear white in dark mode for better color contrast  -->
+                        <!-- <img src="assets/img/about-github.svg" alt="image" class="about__skills-img"> -->
+                        <!-- <img src="assets/img/about-next-js.svg" alt="image" class="about__skills-img"> -->
+                        <img src="assets/img/about-sass.svg" alt="image" class="about__skills-img">
+                        <!-- <img src="assets/img/about-tailwind-css.svg" alt="image" class="about__skills-img"> -->
+                        <img src="assets/img/about-figma.svg" alt="image" class="about__skills-img">
+                        <img src="assets/img/about-sketch.svg" alt="image" class="about__skills-img">
+                        <!-- <img src="assets/img/about-photoshop.svg" alt="image" class="about__skills-img"> -->
+                        <!-- <img src="assets/img/about-illustrator.svg" alt="image" class="about__skills-img"> -->
                      </div>
                   </div>
-
-                  <div class="contact__box contact__area">
-                     <textarea name="user_message" id="message" required placeholder="Type your message" class="contact__input"></textarea>
-                     <label for="message" class="contact__label">Message</label>
-                  </div>
-
-                  <p class="contact__message" id="contact-message"></p>
-
-                  <button type="submit" class="contact__send button">Send Message</button>
-               </form>
+               </div>
             </div>
          </section>
       </main>
@@ -99,6 +139,8 @@
          <div class="footer__container container grid">
             <div class="footer__content grid">
                <a href="index.html" class="footer__logo">Prince</a>
+
+               <!-- <a href="https://michael-osei-morgan.netlify.app/" class="footer__logo">Michael</a> -->
 
                <ul class="footer__links">
                   <li>
@@ -141,11 +183,5 @@
 
       <!--=============== MAIN JS ===============-->
       <script src="assets/js/main.js"></script>
-      
-      <!--=============== EMAIL JS ===============-->
-      <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-      
-      <!--=============== CONTACT JS ===============-->
-      <script src="assets/js/contact.js"></script>
    </body>
 </html>
