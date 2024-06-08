@@ -12,6 +12,7 @@
       Default: hsl(255, 90%, 60%)
       Orange: hsl(14, 90%, 60%) - Blue: hsl(210, 90%, 50%)
       Pink: hsl(356, 100%, 65%) - Green: hsl(162, 90%, 40%)
+      Red: hsl(359, 74%, 46%)   - Neon: hsl(94, 64%, 40%)
 
       For more colors visit: https://colors.dopely.top/color-pedia
       -> Choose any color 
@@ -419,7 +420,8 @@ body.dark-theme {
   text-align: center;
 }
 
-.about__name {
+.about__first-name, 
+.about__last-name {
   font-size: var(--h1-font-size);
 }
 
