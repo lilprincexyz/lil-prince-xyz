@@ -430,7 +430,8 @@ body.dark-theme {
 }
 
 .about__description b {
-  color: var(--first-color);
+  color: var(--text-color);
+  /* color: var(--first-color); */
 }
 
 .about__button {
