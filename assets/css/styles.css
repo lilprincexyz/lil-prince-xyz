@@ -476,7 +476,7 @@ body.dark-theme {
 .services__icon {
   display: inline-block;
   font-size: 3rem;
-  color: var(--first-color);
+  color: var(--title-color);
   margin-bottom: 1.5rem;
 }
 
