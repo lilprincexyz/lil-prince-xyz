@@ -482,8 +482,8 @@ body.dark-theme {
   display: inline-block;
   font-size: 3rem;
   /* Title-color gives icon a higher color contrast */
-  color: var(--title-color);
-  /* color: var(--first-color); */
+  /* color: var(--title-color); */
+  color: var(--first-color);
   margin-bottom: 1.5rem;
 }
 
