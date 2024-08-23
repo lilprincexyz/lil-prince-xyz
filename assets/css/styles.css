@@ -20,8 +20,8 @@
       -> Click on tab (Color Conversion)
       -> Copy the color mode (HSL)
   */
-  --hue: 255;
-  --first-color: hsl(var(--hue), 90%, 60%);
+  --hue: 14;
+  --first-color: hsl(var(--hue), 100%, 51%);
   --first-color-alt: hsl(var(--hue), 82%, 56%);
   --first-color-light: hsl(var(--hue), 40%, 80%);
   --title-color: hsl(var(--hue), 24%, 16%);
@@ -153,6 +153,7 @@ body.dark-theme {
 }
 
 .dark-theme .button:hover {
+  /* box-shadow: none; */
   box-shadow: 0 8px 24px hsla(var(--hue), 90%, 50%, 0.3);
 }
 
@@ -245,6 +246,7 @@ body.dark-theme {
 .nav__logo {
   color: var(--white-color);
   font-weight: var(--font-semi-bold);
+  font-size: var(--h1-font-size);
   transition: color .4s;
 }
 
@@ -288,6 +290,7 @@ body.dark-theme {
 .nav__link {
   color: var(--title-color);
   font-weight: var(--font-semi-bold);
+  font-size: var(--h1-font-size);
   transition: color .4s;
 }
 
@@ -329,9 +332,10 @@ body.dark-theme {
 .button {
   display: inline-flex;
   justify-content: center;
-  background-color: var(--first-color);
+  background-color: var(--first-color-alt);
   color: var(--white-color);
   font-weight: var(--font-semi-bold);
+  font-size: var(--h1-font-size);
   padding: 1rem 2rem;
   border-radius: 4rem;
   transition: background-color .4s, box-shadow .4s;
@@ -780,6 +784,9 @@ body.dark-theme {
 
 .footer__link {
   font-weight: var(--font-semi-bold);
+  /* Improve color contrast for bright bg colors */
+  font-size: var(--h1-font-size);
+  /* color: var(--white-color); */
 }
 
 .footer__logo:hover, 
