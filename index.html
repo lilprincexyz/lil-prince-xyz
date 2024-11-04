@@ -41,6 +41,60 @@
                   <li class="nav__item">
                      <a href="contact.html" class="button">Contact</a>
                   </li>
+                  
+                  <!-- Language option -->
+                  <!-- <div class="language-switcher nav__item">
+                     <label for="language-select">Choose a language:</label>
+                     <br>
+                     <select id="language-select">
+                           <option value="en">English</option>
+                           <option value="es">Spanish</option>
+                           <option value="fr">French</option>
+                     </select>
+                  </div> -->
+                  <!-- <label for="language-select">Choose a language:</label> 
+                  <li class="nav__item language-switcher">
+                     <a href="#" 
+                     class="nav__link" 
+                     data-wg-notranslate="" 
+                     aria-current="lang" 
+                     style=""
+                     id="language-select"
+                     value="en">
+                        ENG
+                     </a>
+
+                     <span class="nav__link">|</span>
+
+                     <a href="" class="nav__link" data-wg-notranslate="" aria-current="" style=""
+                     id="language-select"
+                     value="es">  
+                        ESP
+                     </a>
+
+                     <span class="nav__link">|</span>
+
+                     <a href="" class="nav__link" data-wg-notranslate="" aria-current="" style=""
+                     id="language-select"
+                     value="fr">  
+                        繁中
+                     </a>
+                  </li> -->
+
+                  <!-- <div class="language-switcher">
+                     <label for="language-select">Choose a language:</label>
+                     <select id="language-select">
+                         <option value="en">English</option>
+                         <option value="es">Spanish</option>
+                         <option value="fr">French</option>
+                     </select>
+                  </div> -->
+
+                  <!-- <div id="content">
+                     <p data-lang="en">Hello, world!</p>
+                     <p data-lang="es" style="display:none;">¡Hola, mundo!</p>
+                     <p data-lang="fr" style="display:none;">Bonjour, le monde!</p>
+                  </div>                  -->
                </ul>
 
                <!-- Close button -->
@@ -71,7 +125,7 @@
                <div class="home__perfil perfil">
                   <div class="perfil__content">
                      <!-- Insert your profile image ( square ratio 300 x 300, 600 x 600... ) -->
-                     <img src="assets/img/home-perfil-king-pyro.png" alt="image" class="perfil__img">
+                     <img src="assets/img/about-perfil.png" alt="image" class="perfil__img">
                   </div>
                </div>
 
@@ -79,7 +133,7 @@
                   <div class="home__data grid">
                      <h1 class="home__name">Prince Otchere</h1>
    
-                     <h2 class="home__profession">Web Developer & Trader</h2>
+                     <h2 class="home__profession">Options Trader & Web Developer</h2>
    
                      <!-- Insert your social links ( change icons at https://remixicon.com/ ) -->
                      <div class="home__social">
@@ -122,14 +176,14 @@
             </h2>
 
             <div class="services__container container grid">
-               <article class="services__card">
+               <!-- <article class="services__card">
                   <i class="ri-pen-nib-line services__icon"></i>
                   <h2 class="services__title">Web Design</h2>
                   <p class="services__description">
                      Beautiful and elegant designs with 
                      interfaces that are intuitive, efficient and 
                      pleasant to use.
-                  </p>
+                  </p> -->
 
                   <!-- <button class="services__button button">Know More</button> -->
 
@@ -162,7 +216,7 @@
                   </div>
                </article>
 
-               <article class="services__card">
+               <!-- <article class="services__card">
                   <i class="ri-code-s-slash-line services__icon"></i>
                   <h2 class="services__title">Web Development</h2>
                   <p class="services__description">
@@ -170,9 +224,9 @@
                      meets requirements for the client.
                   </p>
 
-                  <!-- <button class="services__button button">Know More</button> -->
+                  <button class="services__button button">Know More</button> -->
 
-                  <div class="services__modal">
+                  <!-- <div class="services__modal">
                      <div class="services__modal-content">
                         <i class="ri-close-line services__modal-close"></i>
 
@@ -198,7 +252,7 @@
                            </li>
                         </ul>
                      </div>
-                  </div>
+                  </div> -->
                </article>
 
                <article class="services__card">
@@ -211,7 +265,7 @@
 
                   <!-- <button class="services__button button">Know More</button> -->
 
-                  <div class="services__modal">
+                  <!-- <div class="services__modal">
                      <div class="services__modal-content">
                         <i class="ri-close-line services__modal-close"></i>
 
@@ -237,7 +291,7 @@
                            </li>
                         </ul>
                      </div>
-                  </div>
+                  </div> -->
                </article>
 
                <article class="services__card">
@@ -250,7 +304,7 @@
 
                   <!-- <button class="services__button button">Know More</button> -->
 
-                  <div class="services__modal">
+                  <!-- <div class="services__modal">
                      <div class="services__modal-content">
                         <i class="ri-close-line services__modal-close"></i>
 
@@ -276,7 +330,7 @@
                            </li>
                         </ul>
                      </div>
-                  </div>
+                  </div> -->
                </article>
             </div>
             <br>
@@ -457,7 +511,9 @@
                </ul>
 
                <div class="footer__social">
-                  <!-- <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+                  <!-- <a href="https://www.facebook.com/princecodes/" 
+                  target="_blank" class="footer__social-link"
+                  aria-label="Prince's Facebook profile">
                      <i class="ri-facebook-circle-fill"></i>
                   </a> -->
 
@@ -481,9 +537,9 @@
                </div>
             </div>
 
-            <!-- <span class="footer__copy">
+            <span class="footer__copy">
                &#169; All Rights Reserved By Bedimcode
-            </span> -->
+            </span>
          </div>
       </footer>
 
@@ -501,5 +557,7 @@
 
       <!--=============== INDEX JS ===============-->
       <script src="assets/js/index.js"></script>
+      
+      <script src="assets/js/lang.js"></script>
    </body>
 </html>
