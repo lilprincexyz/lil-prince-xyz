@@ -290,7 +290,7 @@ body.dark-theme {
 .nav__link {
   color: var(--title-color);
   font-weight: var(--font-semi-bold);
-  font-size: var(--h1-font-size);
+  font-size: var(--h2-font-size);
   transition: color .4s;
 }
 
@@ -776,7 +776,7 @@ body.dark-theme {
 }
 
 .footer__logo {
-  font-size: var(--h1-font-size);
+  font-size: var(--h2-font-size);
   font-weight: var(--font-semi-bold);
   justify-self: center;
 }
@@ -795,7 +795,7 @@ body.dark-theme {
 .footer__link {
   font-weight: var(--font-semi-bold);
   /* Improve color contrast for bright bg colors */
-  font-size: var(--h1-font-size);
+  font-size: var(--h2-font-size);
   /* color: var(--white-color); */
 }
 
