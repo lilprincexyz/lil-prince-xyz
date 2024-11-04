@@ -345,7 +345,7 @@ body.dark-theme {
   background-color: var(--first-color);
   color: var(--white-color);
   font-weight: var(--font-semi-bold);
-  font-size: var(--h1-font-size);
+  font-size: var(--h2-font-size);
   padding: 1rem 2rem;
   border-radius: 4rem;
   transition: background-color .4s, box-shadow .4s;
