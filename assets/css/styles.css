@@ -20,8 +20,8 @@
       -> Click on tab (Color Conversion)
       -> Copy the color mode (HSL)
   */
-  --hue: 14;
-  --first-color: hsl(var(--hue), 100%, 51%);
+  --hue: 255;
+  --first-color: hsl(var(--hue), 90%, 60%);
   --first-color-alt: hsl(var(--hue), 82%, 56%);
   --first-color-light: hsl(var(--hue), 40%, 80%);
   --title-color: hsl(var(--hue), 24%, 16%);
@@ -246,7 +246,7 @@ body.dark-theme {
 .nav__logo {
   color: var(--white-color);
   font-weight: var(--font-semi-bold);
-  font-size: var(--h1-font-size);
+  font-size: var(--h2-font-size);
   transition: color .4s;
 }
 
@@ -303,6 +303,16 @@ body.dark-theme {
   top: 1.15rem;
   right: 1.5rem;
 }
+
+/* Language switcher */
+/* .language-switcher {
+  margin: 20px;
+}
+
+#content p {
+  font-size: 1.2em;
+  margin: 20px 0;
+} */
 
 /* Show menu */
 .show-menu {
