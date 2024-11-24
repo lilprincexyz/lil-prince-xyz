@@ -449,8 +449,8 @@ body.dark-theme {
 }
 
 .about__description b {
-  color: var(--text-color);
-  /* color: var(--first-color); */
+  /* color: var(--text-color); */
+  color: var(--first-color);
 }
 
 .about__button {
@@ -465,6 +465,7 @@ body.dark-theme {
 
 .about__skills-img {
   width: 35px;
+  text-align: center;
   transition: transform .4s;
 }
 
@@ -478,6 +479,10 @@ body.dark-theme {
   align-items: center;
   gap: 2rem 1.5rem;
 }
+
+/* .about__skills-img-subtitle {
+  text-align: right;
+} */
 
 /*=============== SERVICES ===============*/
 .services__container {
