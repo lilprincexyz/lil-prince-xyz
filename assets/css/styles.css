@@ -448,6 +448,10 @@ body.dark-theme {
   font-size: var(--h2-font-size);
 }
 
+.about__description {
+  text-align: left;
+}
+
 .about__description b {
   /* color: var(--text-color); */
   color: var(--first-color);
