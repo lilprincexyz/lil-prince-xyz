@@ -517,6 +517,7 @@ body.dark-theme {
 
 .services__description {
   margin-bottom: 3rem;
+  text-align: left;
 }
 
 .services__button {
