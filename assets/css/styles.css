@@ -312,17 +312,47 @@ body.dark-theme {
   padding: 5px;
   font-size: 16px;
   color: #333;
+  cursor: pointer;
 }
 
 #languageSwitcher:hover {
   outline: none;
-  /* border-color: var(--first-color); */
+  border-color: #007bff;
 }
 
 #languageSwitcher:focus {
   outline: none;
-  /* border-color: #007bff; */
+  border-color: #007bff;
 }
+
+/* .nav__link {
+  padding: 1rem;
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+} */
+
+/* .nav__link:hover,
+.nav__link:focus {
+  background-color: #333;
+  color: #fff;
+} */
+
+/* .languageSwitcher {
+  background-color: #222;
+  color: #fff;
+  border: none;
+  padding: 0.5rem;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 1rem;
+} */
+
+/* .languageSwitcher option {
+  background-color: #222;
+  color: #fff;
+} */
+
 
 /* Show menu */
 .show-menu {
