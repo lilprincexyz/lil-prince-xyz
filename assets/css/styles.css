@@ -305,14 +305,24 @@ body.dark-theme {
 }
 
 /* Language switcher */
-/* .language-switcher {
-  margin: 20px;
+#languageSwitcher {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 16px;
+  color: #333;
 }
 
-#content p {
-  font-size: 1.2em;
-  margin: 20px 0;
-} */
+#languageSwitcher:hover {
+  outline: none;
+  /* border-color: var(--first-color); */
+}
+
+#languageSwitcher:focus {
+  outline: none;
+  /* border-color: #007bff; */
+}
 
 /* Show menu */
 .show-menu {
