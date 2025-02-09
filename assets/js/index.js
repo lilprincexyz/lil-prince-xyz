@@ -1,3 +1,16 @@
+/*=============== LANGUAGE SWITCHER ===============*/
+document.getElementById('languageSwitcher').addEventListener('change', function() {
+    var selectedLanguage = this.value;
+    // Replace the URLs with your localized pages' URLs
+    if (selectedLanguage === 'en') {
+       window.location.href = 'index.html';
+    } else if (selectedLanguage === 'es') {
+       window.location.href = 'index_es.html';
+    } else if (selectedLanguage === 'zh') {
+        window.location.href = 'index_zh.html';
+     }
+ });
+ 
 /*=============== SERVICES MODAL ===============*/
 const modal = document.querySelectorAll('.services__modal'),
       modalButton = document.querySelectorAll('.services__button'),
