@@ -41,6 +41,23 @@
                   <li class="nav__item">
                      <a href="contact.html" class="button">Contact</a>
                   </li>
+
+                  <li class="nav__item">
+                     <select id="languageSwitcher" class="nav__link" aria-label="Language Selector">
+                        <!-- Add more languages as needed -->
+                        <option value="en" aria-label="English">English</option>
+                        <!-- <option value="es" aria-label="Español">Español</option> -->
+                        <option value="zh" aria-label="中文">中文</option>
+                     </select>
+                  </li>
+                  
+                  <!-- <li class="nav__item">
+                     <select id="languageSwitcher" class="nav__link" aria-label="Language Selector">
+                        <option value="en">English</option>
+                        <option value="es">Español</option>
+                        <option value="zh">中文</option>
+                     </select>
+                  </li> -->
                   
                   <!-- Language option -->
                   <!-- <div class="container">
@@ -476,10 +493,10 @@
                Epithets  
             </h2>
 
-            <div class="testimonial__container container">
-               <div class="testimonial__swiper swiper">
-                  <div class="swiper-wrapper">
-                     <article class="testimonial__card swiper-slide">
+            <div class="testimonial__container container" aria-label="Testimonials Container">
+               <!-- <div class="testimonial__swiper swiper" aria-label="Testimonials Carousel"> -->
+                  <div class="swiper-wrapper" aria-label="Testimonials Wrapper">
+                     <article class="testimonial__card swiper-slide" aria-label="Testimonial Card">
                         <div class="testimonial__border">
                            <img src="assets/img/about-perfil.png" alt="image" class="testimonial__img">
                         </div>
@@ -529,7 +546,7 @@
                         </p>
                      </article> -->
                   </div>
-               </div>
+               <!-- </div> -->
 
                <!-- Pagination -->
                <div class="swiper-pagination"></div>
