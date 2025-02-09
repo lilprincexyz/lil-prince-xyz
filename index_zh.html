@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <!--=============== FAVICON ===============-->
+   <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+
+   <!--=============== REMIXICONS ===============-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css">
+
+   <!--=============== SWIPER CSS ===============-->
+   <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+   <!--=============== CSS ===============-->
+   <link rel="stylesheet" href="assets/css/styles.css">
+
+   <title>小王子</title>
+</head>
+<body>
+   <!--==================== HEADER ====================-->
+   <header class="header" id="header">
+      <nav class="nav container">
+         <a href="index_zh.html" class="nav__logo">王子</a>
+
+         <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+               <li class="nav__item">
+                  <a href="index_zh.html" class="nav__link">主页</a>
+               </li>
+
+               <li class="nav__item">
+                  <a href="about_zh.html" class="nav__link">关于</a>
+               </li>
+
+               <li class="nav__item">
+                  <a href="work_zh.html" class="nav__link">工作</a>
+               </li>
+
+               <li class="nav__item">
+                  <a href="contact_zh.html" class="button">联系</a>
+               </li>
+
+               <li class="nav__item">
+                <select id="languageSwitcher" class="nav__link" aria-label="Language Selector">
+                    <option value="zh">中文</option>
+                    <option value="en">English</option>
+                   <!-- <option value="es">Español</option> -->
+                   <!-- Add more languages as needed -->
+                </select>
+             </li>
+             
+            </ul>
+
+            <!-- Close button -->
+            <div class="nav__close" id="nav-close">
+               <i class="ri-close-line"></i>
+            </div>
+         </div>
+
+         <div class="nav__actions">
+            <!-- Theme button -->
+            <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+            <!-- Toggle button -->
+            <div class="nav__toggle" id="nav-toggle">
+               <i class="ri-menu-line"></i>
+            </div>
+         </div>
+      </nav>
+   </header>
+
+<!--==================== MAIN ====================-->
+<main class="main">
+    <!--==================== HOME ====================-->
+    <section class="home section">
+       <div class="home__rectangle"></div>
+ 
+       <div class="home__container container grid">
+          <div class="home__perfil perfil">
+             <div class="perfil__content">
+                <!-- Insert your profile image ( square ratio 300 x 300, 600 x 600... ) -->
+                <img src="assets/img/about-perfil.png" alt="图片" class="perfil__img">
+             </div>
+          </div>
+ 
+          <div class="home__content grid">
+             <div class="home__data grid">
+                <h1 class="home__name">Prince Otchere</h1>
+ 
+                <h2 class="home__profession">股票衍生品交易员</h2>
+ 
+                <!-- Insert your social links ( change icons at https://remixicon.com/ ) -->
+                <div class="home__social">
+                   
+                   <a href="https://www.instagram.com/lilprincexyz/" 
+                   class="home__social-link"
+                   aria-label="Prince的Instagram个人资料">
+                      <i class="ri-instagram-line"></i>
+                   </a>
+ 
+                   <a href="https://twitter.com/lilprincexyz_/" 
+                   class="home__social-link"
+                   aria-label="Prince的X/Twitter个人资料">
+                      <i class="ri-twitter-x-line"></i>
+                   </a>
+                </div>
+            </div>
+            <!-- Insert your CV -->
+            <a href="https://docs.google.com/document/d/1oR2Uz27hf0YWviPz5v636euAl4iSqG-5cFk2-QQSnsg/edit?usp=sharing" 
+            class="home__button button">简历</a>
+            <!-- Contact when not seeking work -->
+            <!-- <a href="contact.html" class="about__button button">联系</a> -->
+            </div>
+            </div>
+            </section>
+
+            <!--==================== SERVICES ====================-->
+            <section class="services section">
+            <h2 class="section__title">
+            服务
+            </h2>
+
+            <div class="services__container container grid">
+                <article class="services__card">
+                    <i class="ri-exchange-dollar-line services__icon"></i>
+                    <h2 class="services__title">衍生品交易</h2>
+                    <p class="services__description">
+                        应用从 Sasha Stone 学习的增强机械系统（EMS）和 EnhancedMarket™（EM）,
+                        再加上一些与 Mario Salazar 的波段交易。
+                    </p>
+                </article>
+                
+                <article class="services__card">
+                    <i class="ri-layout-line services__icon"></i>
+                    <h2 class="services__title">质量保证测试</h2>
+                    <p class="services__description">
+                       具备无障碍和高性能的网站，
+                       经过单元测试和端到端测试。
+                    </p>
+                </article>
+            </div>
+            </article>
+            <br>
+            </section>
+
+            <!--==================== TESTIMONIALd ====================-->
+            <section class="testimonial section">
+                <h2 class="section__title">
+                美誉
+                </h2>
+            
+                <div class="testimonial__container container" aria-label="Testimonials Container">
+                    <!-- <div class="testimonial__swiper swiper" aria-label="Testimonials Carousel"> -->
+                        <div class="swiper-wrapper" aria-label="Testimonials Wrapper">
+                            <article class="testimonial__card swiper-slide" aria-label="Testimonial Card">
+                                <div class="testimonial__border">
+                                <img src="assets/img/about-perfil.png" alt="图片" class="testimonial__img">
+                                </div>
+                                
+                                <h2 class="testimonial__name">Prince Otchere</h2>
+                                <p class="testimonial__description">
+                                我只是一个CHILLGUY。 也是个叔叔。
+                                </p>
+                            </article>
+                        </div>
+                    <!-- </div> -->
+
+                    <!-- Pagination -->
+                    <div class="swiper-pagination">
+                    </div>
+                </div>
+            </section>
+            </main>
+            <!--==================== FOOTER ====================-->
+            <footer class="footer">
+                <div class="footer__container container grid">
+                <div class="footer__content grid">
+                    <a href="index.html" class="footer__logo">王子</a>
+            
+                    <ul class="footer__links">
+                        <li>
+                            <a href="about.html" class="footer__link">关于</a>
+                        </li>
+            
+                        <li>
+                            <a href="work.html" class="footer__link">工作</a>
+                        </li>
+            
+                        <li>
+                            <a href="contact.html" class="footer__link">联系</a>
+                        </li>
+                    </ul>
+            
+                    <div class="footer__social">
+                        <a href="https://www.instagram.com/lilprincexyz/" 
+                        class="footer__social-link"
+                        aria-label="Prince的Instagram">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+            
+                        <a href="https://twitter.com/lilprincexyz_/" 
+                        class="footer__social-link"
+                        aria-label="Prince的X/Twitter个人资料">
+                            <i class="ri-twitter-x-line"></i>
+                        </a>
+            
+                        <a href="https://github.com/lilprincexyz/" 
+                        class="footer__social-link"
+                        aria-label="Prince的Github个人资料">
+                            <i class="ri-github-fill"></i>
+                        </a>
+            
+                        <a href="https://www.linkedin.com/in/lilprincexyz/" 
+                        class="footer__social-link"
+                        aria-label="Prince的LinkedIn">
+                            <i class="ri-linkedin-box-fill"></i>
+                        </a>
+            
+                    </div>
+                </div>
+            
+                <span class="footer__copy">
+                    &#169; 由 Bedimcode 保留所有权利
+                </span>
+                </div>
+            </footer>
+ 
+ <!--========== SCROLL UP ==========-->
+ <a href="#" class="scrollup" id="scroll-up"
+ aria-label="返回顶部">
+    <i class="ri-arrow-up-line"></i>
+ </a>
+ 
+ <!--=============== MAIN JS ===============-->
+ <script src="assets/js/main.js"></script>
+ 
+ <!--=============== SWIPER JS ===============-->
+ <script src="assets/js/swiper-bundle.min.js"></script>
+ 
+ <!--=============== INDEX JS ===============-->
+ <script src="assets/js/index.js"></script>
+       
+ <script src="assets/js/lang.js"></script>
+ 
+</body>
+</html>
