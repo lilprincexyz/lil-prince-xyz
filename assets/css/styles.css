@@ -69,9 +69,9 @@
     --smaller-font-size: .813rem;
   }
 
-  element :body> {
+  /* element :body> {
     transition: background-color 0s;
-  }
+  } */
 }
 
 /*=============== BASE ===============*/
@@ -96,7 +96,7 @@ button {
 body {
   background-color: var(--body-color);
   color: var(--text-color);
-  transition: background-color 0s;
+  /* transition: background-color 0s; */
 }
 
 input,
@@ -136,7 +136,7 @@ img {
   color: var(--white-color);
   font-size: 1.25rem;
   cursor: pointer;
-  transition: color .4s;
+  /* transition: color .4s; */
 }
 
 /*========== Variables Dark theme ==========*/
@@ -236,7 +236,7 @@ body.dark-theme {
   left: 0;
   background-color: transparent;
   z-index: var(--z-fixed);
-  transition: background-color .4s, box-shadow .4s;
+  transition: background-color 0s, box-shadow .4s;
 }
 
 .nav {
@@ -784,7 +784,7 @@ body.dark-theme {
   color: var(--title-color);
   background-color: var(--body-color);
   padding: 8px;
-  transition: background-color .4s;
+  transition: background-color 0s;
 }
 
 .contact__area {
