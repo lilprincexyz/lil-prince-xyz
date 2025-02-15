@@ -68,10 +68,6 @@
     --small-font-size: .875rem;
     --smaller-font-size: .813rem;
   }
-
-  /* element :body> {
-    transition: background-color 0s;
-  } */
 }
 
 /*=============== BASE ===============*/
@@ -145,6 +141,7 @@ body.dark-theme {
   --body-color: hsl(var(--hue), 16%, 8%);
   --container-color: hsl(var(--hue), 16%, 12%);
   --shadow-color: hsla(var(--hue), 32%, 4%, .4);
+  transition: background-color 0s;
 }
 
 /*========== 
@@ -204,7 +201,6 @@ body.dark-theme {
   border-radius: 50%;
   display: grid;
   place-items: center;
-  /* transition: background-color .2s; */
 }
 .perfil__content {
   width: 180px;
@@ -327,35 +323,6 @@ body.dark-theme {
   outline: none;
   border-color: #007bff;
 }
-
-/* .nav__link {
-  padding: 1rem;
-  color: #fff;
-  text-decoration: none;
-  font-size: 16px;
-} */
-
-/* .nav__link:hover,
-.nav__link:focus {
-  background-color: #333;
-  color: #fff;
-} */
-
-/* .languageSwitcher {
-  background-color: #222;
-  color: #fff;
-  border: none;
-  padding: 0.5rem;
-  font-size: 16px;
-  cursor: pointer;
-  margin-left: 1rem;
-} */
-
-/* .languageSwitcher option {
-  background-color: #222;
-  color: #fff;
-} */
-
 
 /* Show menu */
 .show-menu {
@@ -783,7 +750,6 @@ body.dark-theme {
   color: var(--title-color);
   background-color: var(--body-color);
   padding: 8px;
-  transition: background-color 0s;
 }
 
 .contact__area {
@@ -1175,6 +1141,5 @@ body.dark-theme {
 @media screen and (min-width: 3840px) {
   body {
     zoom: 3.1;
-    transition: background-color 0s;
   }
 }
