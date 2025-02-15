@@ -96,7 +96,7 @@ button {
 body {
   background-color: var(--body-color);
   color: var(--text-color);
-  /* transition: background-color 0s; */
+  transition: background-color 0s;
 }
 
 input,
