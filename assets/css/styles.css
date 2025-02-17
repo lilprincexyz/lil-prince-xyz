@@ -316,12 +316,12 @@ body.dark-theme {
 
 #languageSwitcher:hover {
   outline: none;
-  border-color: #007bff;
+  border-color: var(--first-color);
 }
 
 #languageSwitcher:focus {
   outline: none;
-  border-color: #007bff;
+  border-color: var(--first-color);
 }
 
 /* Show menu */
