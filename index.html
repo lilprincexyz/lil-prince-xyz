@@ -10,38 +10,40 @@
       <!--=============== REMIXICONS ===============-->
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css">
 
-      <!--=============== SWIPER CSS ===============-->
-      <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
-
       <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
       <link rel="stylesheet" href="assets/css/styles.css">
-
       <title>Lil Prince</title>
+      <!-- Other head elements -->
+      <!-- <script>
+         document.addEventListener('DOMContentLoaded', function() {
+         const selectedTheme = localStorage.getItem('selected-theme');
+         if (selectedTheme === 'dark') {
+            document.body.classList.add('dark-theme');
+         }
+         });
+      </script>
+      <script src="main.js" defer></script> -->
    </head>
    <body>
       <!--==================== HEADER ====================-->
       <header class="header" id="header">
          <nav class="nav container">
             <a href="index.html" class="nav__logo">Prince</a>
-
             <div class="nav__menu" id="nav-menu">
                <ul class="nav__list">
                   <li class="nav__item">
                      <a href="index.html" class="nav__link">Home</a>
                   </li>
-
                   <li class="nav__item">
                      <a href="about.html" class="nav__link">About</a>
                   </li>
-
                   <li class="nav__item">
                      <a href="work.html" class="nav__link">Work</a>
                   </li>
-
                   <li class="nav__item">
                      <a href="contact.html" class="button">Contact</a>
                   </li>
-
                   <li class="nav__item">
                      <select id="languageSwitcher" class="nav__link" aria-label="Language Selector">
                         <option value="en" aria-label="English" data-href="index.html">English</option>
@@ -50,83 +52,6 @@
                         <!-- Add more languages as needed -->
                      </select>
                   </li>
-                  
-                  <!-- <li class="nav__item">
-                     <select id="languageSwitcher" class="nav__link" aria-label="Language Selector">
-                        <option value="en">English</option>
-                        <option value="es">Español</option>
-                        <option value="zh">中文</option>
-                     </select>
-                  </li> -->
-                  
-                  <!-- Language option -->
-                  <!-- <div class="container">
-                     <span class="en">En </span>
-                     <input type="checkbox" class="check" />
-                     <span class="zh">中文</span>
-                     <div class="content contentEng">
-                        <p>
-                          Lorem ipsum, dolor sit amet consectetur English
-                        </p>
-                     </div>
-                     <div class="content contentZho">
-                        <p>
-                           中文 Ipsum Dolor meliore persecuti Goethe
-                        </p>
-                     </div>
-                  </div> -->
-                  <!-- <div class="language-switcher nav__item">
-                     <label for="language-select">Choose a language:</label>
-                     <br>
-                     <select id="language-select">
-                           <option value="en">English</option>
-                           <option value="es">Spanish</option>
-                           <option value="fr">French</option>
-                     </select>
-                  </div> -->
-                  <!-- <label for="language-select">Choose a language:</label> 
-                  <li class="nav__item language-switcher">
-                     <a href="#" 
-                     class="nav__link" 
-                     data-wg-notranslate="" 
-                     aria-current="lang" 
-                     style=""
-                     id="language-select"
-                     value="en">
-                        ENG
-                     </a>
-
-                     <span class="nav__link">|</span>
-
-                     <a href="" class="nav__link" data-wg-notranslate="" aria-current="" style=""
-                     id="language-select"
-                     value="es">  
-                        ESP
-                     </a>
-
-                     <span class="nav__link">|</span>
-
-                     <a href="" class="nav__link" data-wg-notranslate="" aria-current="" style=""
-                     id="language-select"
-                     value="fr">  
-                        繁中
-                     </a>
-                  </li> -->
-
-                  <!-- <div class="language-switcher">
-                     <label for="language-select">Choose a language:</label>
-                     <select id="language-select">
-                         <option value="en">English</option>
-                         <option value="es">Spanish</option>
-                         <option value="fr">French</option>
-                     </select>
-                  </div> -->
-
-                  <!-- <div id="content">
-                     <p data-lang="en">Hello, world!</p>
-                     <p data-lang="es" style="display:none;">¡Hola, mundo!</p>
-                     <p data-lang="fr" style="display:none;">Bonjour, le monde!</p>
-                  </div>                  -->
                </ul>
 
                <!-- Close button -->
@@ -181,22 +106,6 @@
                         aria-label="Prince's X/Twitter profile">
                            <i class="ri-twitter-x-line"></i>
                         </a>
-
-                        <!-- <a href="https://github.com/lilprincexyz/" 
-                        target="_blank" class="home__social-link"
-                        aria-label="Prince's Github profile">
-                           <i class="ri-github-fill"></i>
-                        </a> -->
-   
-                        <!-- <a href="https://www.linkedin.com/in/lilprincexyz/" 
-                        target="_blank" class="home__social-link"
-                        aria-label="Prince's Linkedin profile">
-                           <i class="ri-linkedin-box-fill"></i>
-                        </a> -->
-
-                        <!-- <a href="https://dribbble.com/" target="_blank" class="home__social-link">
-                           <i class="ri-dribbble-line"></i>
-                        </a> -->
                      </div>
                   </div>
 
@@ -256,82 +165,14 @@
                   </div> -->
                <!-- </article> -->
 
-               <!-- <article class="services__card">
-                  <i class="ri-code-s-slash-line services__icon"></i>
-                  <h2 class="services__title">Web Development</h2>
-                  <p class="services__description">
-                     Simple, readable and semantic code that 
-                     meets requirements for the client.
-                  </p>
-
-                  <button class="services__button button">Know More</button> -->
-
-                  <!-- <div class="services__modal">
-                     <div class="services__modal-content">
-                        <i class="ri-close-line services__modal-close"></i>
-
-                        <h2 class="services__modal-title">
-                           Web Development
-                        </h2>
-
-                        <ul class="services__modal-list grid">
-                           <li class="services__modal-item">
-                              Create professional and quality websites at the client's request.
-                           </li>
-
-                           <li class="services__modal-item">
-                              I do web design in prototypes.
-                           </li>
-
-                           <li class="services__modal-item">
-                              I position your website with advanced SEO.
-                           </li>
-
-                           <li class="services__modal-item">
-                              I solve performance problems on web pages.
-                           </li>
-                        </ul>
-                     </div>
-                  </div> -->
-               <!-- </article> -->
-
                <article class="services__card">
                   <i class="ri-exchange-dollar-line services__icon"></i>
                   <h2 class="services__title">Derivatives Trading</h2>
                   <p class="services__description">
-                     Apply the Enhanced Mechanic System (EMS) learned from Sasha Stone
-                     and EnhancedMarket&trade; (EM). 
+                     Apply the Enhanced Mechanic System (EMS) learned from Sasha 
+                     Stone and EnhancedMarket&trade; (EM). 
                      Plus a few swing trades with Mario Salazar.
                   </p>
-                  <!-- <button class="services__button button">Know More</button> -->
-
-                  <!-- <div class="services__modal">
-                     <div class="services__modal-content">
-                        <i class="ri-close-line services__modal-close"></i>
-
-                        <h2 class="services__modal-title">
-                           Quality Assurance Tester
-                        </h2>
-
-                        <ul class="services__modal-list grid">
-                           <li class="services__modal-item">
-                              Create professional and quality websites at the client's request.
-                           </li>
-
-                           <li class="services__modal-item">
-                              I do web design in prototypes.
-                           </li>
-
-                           <li class="services__modal-item">
-                              I position your website with advanced SEO.
-                           </li>
-
-                           <li class="services__modal-item">
-                              I solve performance problems on web pages.
-                           </li>
-                        </ul>
-                     </div>
-                  </div> -->
                </article>
 
                <article class="services__card">
@@ -339,39 +180,9 @@
                   <h2 class="services__title">Technical Analysis</h2>
                   <p class="services__description">
                      Technical analysis of equity derivatives. Identify 
-                     a confluence of  support or resistance levels, wedge patterns,
-                     volume and gap fills.
+                     a confluence of  support and resistance levels, wedge patterns,
+                     volume or gap fills.
                   </p>
-
-                  <!-- <button class="services__button button">Know More</button> -->
-
-                  <!-- <div class="services__modal">
-                     <div class="services__modal-content">
-                        <i class="ri-close-line services__modal-close"></i>
-
-                        <h2 class="services__modal-title">
-                           Quality Assurance Tester
-                        </h2>
-
-                        <ul class="services__modal-list grid">
-                           <li class="services__modal-item">
-                              Create professional and quality websites at the client's request.
-                           </li>
-
-                           <li class="services__modal-item">
-                              I do web design in prototypes.
-                           </li>
-
-                           <li class="services__modal-item">
-                              I position your website with advanced SEO.
-                           </li>
-
-                           <li class="services__modal-item">
-                              I solve performance problems on web pages.
-                           </li>
-                        </ul>
-                     </div>
-                  </div> -->
                </article>
 
                <article class="services__card">
@@ -381,116 +192,16 @@
                      Accessible and performant websites 
                      that are unit tested and end to end.
                   </p>
-
-                  <!-- <button class="services__button button">Know More</button>
-
-                  <div class="services__modal">
-                     <div class="services__modal-content">
-                        <i class="ri-close-line services__modal-close"></i>
-
-                        <h2 class="services__modal-title">
-                           Quality Assurance Tester
-                        </h2>
-
-                        <ul class="services__modal-list grid">
-                           <li class="services__modal-item">
-                              Create professional and quality websites at the client's request.
-                           </li>
-
-                           <li class="services__modal-item">
-                              I do web design in prototypes.
-                           </li>
-
-                           <li class="services__modal-item">
-                              I position your website with advanced SEO.
-                           </li>
-
-                           <li class="services__modal-item">
-                              I solve performance problems on web pages.
-                           </li>
-                        </ul>
-                     </div> -->
                   </div>
                </article>
             </div>
          </section>
-
-         <!--==================== WORK ====================-->
-         <!-- <section class="work section">
-            <h2 class="section__title">
-               My Most <br>
-               Recent Works               
-            </h2>
-
-            <div class="work__container container grid">
-               <article class="work__card">
-                  <a href="#" target="_blank" class="work__link">
-                     <img src="assets/img/work-1.png" alt="image" class="work__img">
-                     <i class="ri-arrow-right-circle-line work__icon"></i>
-                  </a>
-
-                  <h2 class="work__title">Creative Website</h2>
-                  <span class="work__subtitle">Website Design</span>
-               </article>
-
-               <article class="work__card">
-                  <a href="#" target="_blank" class="work__link">
-                     <img src="assets/img/work-2.png" alt="image" class="work__img">
-                     <i class="ri-arrow-right-circle-line work__icon"></i>
-                  </a>
-
-                  <h2 class="work__title">Creative Website</h2>
-                  <span class="work__subtitle">Website Design</span>
-               </article>
-
-               <article class="work__card">
-                  <a href="#" target="_blank" class="work__link">
-                     <img src="assets/img/work-3.png" alt="image" class="work__img">
-                     <i class="ri-arrow-right-circle-line work__icon"></i>
-                  </a>
-
-                  <h2 class="work__title">Awesome App</h2>
-                  <span class="work__subtitle">App Design</span>
-               </article>
-
-               <article class="work__card">
-                  <a href="#" target="_blank" class="work__link">
-                     <img src="assets/img/work-4.png" alt="image" class="work__img">
-                     <i class="ri-arrow-right-circle-line work__icon"></i>
-                  </a>
-
-                  <h2 class="work__title">Awesome App</h2>
-                  <span class="work__subtitle">App Design</span>
-               </article>
-
-               <article class="work__card">
-                  <a href="#" target="_blank" class="work__link">
-                     <img src="assets/img/work-5.png" alt="image" class="work__img">
-                     <i class="ri-arrow-right-circle-line work__icon"></i>
-                  </a>
-
-                  <h2 class="work__title">Interface Design</h2>
-                  <span class="work__subtitle">UI/UX</span>
-               </article>
-
-               <article class="work__card">
-                  <a href="#" target="_blank" class="work__link">
-                     <img src="assets/img/work-6.png" alt="image" class="work__img">
-                     <i class="ri-arrow-right-circle-line work__icon"></i>
-                  </a>
-
-                  <h2 class="work__title">Interface Design</h2>
-                  <span class="work__subtitle">UI/UX</span>
-               </article>
-            </div>
-         </section> -->
 
          <!--==================== TESTIMONIAL ====================-->
          <section class="testimonial section">
             <h2 class="section__title">
                Epithets  
             </h2>
-
             <div class="testimonial__container container" aria-label="Testimonials Container">
                <!-- <div class="testimonial__swiper swiper" aria-label="Testimonials Carousel"> -->
                   <div class="swiper-wrapper" aria-label="Testimonials Wrapper">
@@ -504,108 +215,46 @@
                            I'm just a CHILLGUY. And an uncle.
                         </p>
                      </article>
-
-                     <!-- <article class="testimonial__card swiper-slide">
-                        <div class="testimonial__border">
-                           <img src="assets/img/testimonial-2.png" alt="image" class="testimonial__img">
-                        </div>
-                        
-                        <h2 class="testimonial__name">Rial Loz</h2>
-                        <p class="testimonial__description">
-                           I hired a project and the services were of 
-                           quality, the work delivered is of good 
-                           content, excellent work.
-                        </p>
-                     </article>
-
-                     <article class="testimonial__card swiper-slide">
-                        <div class="testimonial__border">
-                           <img src="assets/img/testimonial-3.png" alt="image" class="testimonial__img">
-                        </div>
-                        
-                        <h2 class="testimonial__name">Mey Doth</h2>
-                        <p class="testimonial__description">
-                           I hired a project and the services were of 
-                           quality, the work delivered is of good 
-                           content, excellent work.
-                        </p>
-                     </article>
-
-                     <article class="testimonial__card swiper-slide">
-                        <div class="testimonial__border">
-                           <img src="assets/img/testimonial-4.png" alt="image" class="testimonial__img">
-                        </div>
-                        
-                        <h2 class="testimonial__name">Celi Phet</h2>
-                        <p class="testimonial__description">
-                           I hired a project and the services were of 
-                           quality, the work delivered is of good 
-                           content, excellent work.
-                        </p>
-                     </article> -->
                   </div>
                   <br>
-               <!-- </div> -->
-
                <!-- Pagination -->
                <div class="swiper-pagination"></div>
             </div>
          </section>
-
-         <!--==================== CONTACT ====================-->
-         <!-- <section class="contact section">
-            <div class="contact__container container grid">
-               <h2 class="section__title">
-                  Let's Talk <br>
-                  About Your Project               
-               </h2>
-
-               <a href="contact.html" class="contact__button button">Contact Me</a>
-            </div>
-         </section>
-      </main> -->
+      </main>
 
       <!--==================== FOOTER ====================-->
       <footer class="footer">
          <div class="footer__container container grid">
             <div class="footer__content grid">
                <a href="index.html" class="footer__logo">Prince</a>
-
-               <!-- <a href="https://michael-osei-morgan.netlify.app/" class="footer__logo">Michael</a> -->
-
                <ul class="footer__links">
                   <li>
                      <a href="about.html" class="footer__link">About</a>
                   </li>
-
                   <li>
                      <a href="work.html" class="footer__link">Work</a>
                   </li>
-
                   <li>
                      <a href="contact.html" class="footer__link">Contact</a>
                   </li>
                </ul>
-
                <div class="footer__social">
                   <a href="https://www.instagram.com/lilprincexyz/" 
                   class="footer__social-link"
                   aria-label="Prince Instagram">
                      <i class="ri-instagram-line"></i>
                   </a>
-
                   <a href="https://twitter.com/lilprincexyz_/" 
                   class="footer__social-link"
                   aria-label="Prince's X/Twitter profile">
                      <i class="ri-twitter-x-line"></i>
                   </a>
-
                   <a href="https://github.com/lilprincexyz/" 
                   class="footer__social-link"
                   aria-label="Prince's Github profile">
                      <i class="ri-github-fill"></i>
                   </a>
-
                   <a href="https://www.linkedin.com/in/lilprincexyz/" 
                   class="footer__social-link"
                   aria-label="Prince Linkedin">
@@ -613,7 +262,6 @@
                   </a>
                </div>
             </div>
-
             <span class="footer__copy">
                &#169; All Rights Reserved By Bedimcode
             </span>
@@ -626,22 +274,10 @@
          <i class="ri-arrow-up-line"></i>
       </a>
 
-      <!--=============== MAIN JS ===============-->
+      <!--=============== JS FILES ===============-->
       <script src="assets/js/main.js"></script>
-
-      <!--=============== SWIPER JS ===============-->
       <script src="assets/js/swiper-bundle.min.js"></script>
-
-      <!--=============== INDEX JS ===============-->
-      <script src="assets/js/index.js"></script>
-      
+      <script src="assets/js/index.js"></script>   
       <script src="assets/js/lang.js"></script>
-      
-      <!-- <script>
-         if(navigator.userAgent.includes("Instagram")){
-             window.location.href = "https://lilprince.xyz/";
-         }
-      </script> -->
-
    </body>
 </html>
