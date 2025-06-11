@@ -92,6 +92,7 @@ button {
 body {
   background-color: var(--body-color);
   color: var(--text-color);
+  /* transition: background-color .4s; */
 }
 
 input,
@@ -141,7 +142,8 @@ body.dark-theme {
   --body-color: hsl(var(--hue), 16%, 8%);
   --container-color: hsl(var(--hue), 16%, 12%);
   --shadow-color: hsla(var(--hue), 32%, 4%, .4);
-  transition: background-color 0s;
+  /* transition: background-color 0s; */
+  /* transition: --container-color 0s; */
 }
 
 /*========== 
@@ -202,6 +204,7 @@ body.dark-theme {
   display: grid;
   place-items: center;
 }
+
 .perfil__content {
   width: 180px;
   height: 180px;
@@ -605,6 +608,15 @@ body.dark-theme {
   row-gap: 2rem;
 }
 
+.work__quick_link {
+  text-decoration: none;
+}
+
+.work__quick_link:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--text-color);
+}
+
 .work__link {
   display: inline-block;
   position: relative;
@@ -643,6 +655,10 @@ body.dark-theme {
 .work__page {
   padding-bottom: 4rem;
 }
+
+/* section {
+  transition: background-color 0s;
+} */
 
 /*=============== TESTIMONIAL ===============*/
 .testimonial__container {
