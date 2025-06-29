@@ -11,7 +11,7 @@
   /* 
       Change favorite color
       Default: hsl(255, 90%, 60%)
-      Orange: hsl(14, 90%, 60%) - Blue: hsl(210, 90%, 50%)
+      Orange: hsl(10, 75%, 45%) - Blue: hsl(210, 90%, 50%)
       Pink: hsl(356, 100%, 65%) - Green: hsl(162, 90%, 40%)
       Red: hsl(359, 74%, 46%)   - Neon: hsl(94, 64%, 40%)
 
@@ -20,8 +20,8 @@
       -> Click on tab (Color Conversion)
       -> Copy the color mode (HSL)
   */
-  --hue: 255;
-  --first-color: hsl(var(--hue), 90%, 60%);
+  --hue: 10;
+  --first-color: hsl(var(--hue), 75%, 45%);
   --first-color-alt: hsl(var(--hue), 82%, 56%);
   --first-color-light: hsl(var(--hue), 40%, 80%);
   --title-color: hsl(var(--hue), 24%, 16%);
@@ -365,7 +365,7 @@ body.dark-theme {
 }
 
 .button:hover {
-  background-color: var(--first-color-alt);
+  background-color: var(--first-color);
   box-shadow: 0 8px 24px hsla(var(--hue), 90%, 30%, .3);
 }
 
