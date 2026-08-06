@@ -14,14 +14,15 @@
       Orange: hsl(10, 75%, 45%) - Blue: hsl(210, 90%, 50%)
       Pink: hsl(356, 100%, 65%) - Green: hsl(162, 90%, 40%)
       Red: hsl(359, 74%, 46%)   - Neon: hsl(94, 64%, 40%)
+      Gold: hsl(36, 79%, 57%)   -Light gold: hsl(35, 78%, 75%)
 
       For more colors visit: https://colors.dopely.top/color-pedia
       -> Choose any color 
       -> Click on tab (Color Conversion)
       -> Copy the color mode (HSL)
   */
-  --hue: 10;
-  --first-color: hsl(var(--hue), 75%, 45%);
+  --hue: 36;
+  --first-color: hsl(var(--hue), 79%, 57%);
   --first-color-alt: hsl(var(--hue), 82%, 56%);
   --first-color-light: hsl(var(--hue), 40%, 80%);
   --title-color: hsl(var(--hue), 24%, 16%);
