@@ -138,7 +138,7 @@ img {
 
 /*========== Variables Dark theme ==========*/
 body.dark-theme {
-  --title-color: hsl(var(--hue), 24%, 85%);
+  --title-color: hsl(var(--hue), 24%, 90%);
   --text-color: hsl(var(--hue), 8%, 70%);
   --body-color: hsl(var(--hue), 16%, 8%);
   /* --container-color: hsl(var(--hue), 16%, 12%); */
