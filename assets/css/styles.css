@@ -36,7 +36,8 @@
 
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
-  --body-font: "Syne", sans-serif;
+--body-font: "Montserrat", sans-serif;
+  /* --body-font: "Syne", sans-serif; */
   /* --body-font: 'Space Grotesk', sans-serif; */
   /* --biggest-font-size: 2rem; */
   --biggest-font-size: 2.375rem;
