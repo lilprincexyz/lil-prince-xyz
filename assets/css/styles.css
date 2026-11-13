@@ -1,5 +1,4 @@
 /*=============== GOOGLE FONTS ===============*/
-/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap'); */
 @import url("https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600&display=swap");
 /* @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap"); */
 
@@ -36,7 +35,6 @@
 
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
-	/* --body-font: "Montserrat", sans-serif; */
   --body-font: "Syne", sans-serif;
   /* --body-font: 'Space Grotesk', sans-serif; */
   /* --biggest-font-size: 2rem; */
