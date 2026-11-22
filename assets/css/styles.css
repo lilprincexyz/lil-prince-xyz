@@ -217,10 +217,13 @@ body.dark-theme {
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  background: --body-color;
+  /* background: --body-color; */
   /* background: linear-gradient(180deg, 
               hsl(var(--hue), 90%, 80%), 
               hsl(var(--hue), 90%, 30%)); */
+   background: linear-gradient(180deg, 
+              hsl(var(--hue), 23%, 35%), 
+              hsl(var(--hue), 23%, 5%));
 }
 .perfil__img {
   width: 150px;
