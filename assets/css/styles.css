@@ -21,8 +21,8 @@
       -> Click on tab (Color Conversion)
       -> Copy the color mode (HSL)
   */
-  --hue: 17;
-  --first-color: hsl(var(--hue), 54%, 3%);
+  --hue: 240;
+  --first-color: hsl(var(--hue), 3%, 15%);
   --first-color-alt: hsl(var(--hue), 82%, 56%);
   --first-color-light: hsl(var(--hue), 40%, 80%);
   --title-color: hsl(var(--hue), 24%, 16%);
